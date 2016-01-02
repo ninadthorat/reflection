@@ -1,0 +1,38 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Viewing diff between two versions of files help a lot as we can directly
+compare the difference. Mistakes can be spotted easily in the new version.
+As we know that the old version file is working and intact, we can spot bugs
+easily in the new file.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+At some point if we did something wrong in the new version of the file, then we 
+can restore the pervious version of the file easily. Comparing two version 
+can be helpfull too point out what features are newly added and what have to 
+be added. Finding bugs can be less painful.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git,
+vs having versions automatically saved, like Google Docs does?
+Manually commit is ofcoure the better way to save different version of the file. 
+We don't have to worry about the naming conventions in manual commite.
+Commiting is far easier then uploading files in google drive. 
+Commit does not overwrite the file.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, 
+while others, like Google Docs, treat each file separately?
+Simple put version control system are made for developers and Google dirves are not aimed for 
+programming task. Git know that files in each repository are related to each other. Google drive
+don't treat files in such way.
+
+How can you use the commands git log and git diff to view the history of files?
+Using git log first we can view all the commite made on the repository. Commits are arranged in order
+like recent first then older one. Then we can compare the 2 commits with the git diff command.
+This is how we can know the history of the file. + stands for lines added in the new commite and -
+stands for lines removed from the older or previous commite.
+
+How might using version control make you more confident to make changes that could break something?
+We feel more confident because we know that even if we screw up while doing changes, we can always 
+restore to the previous version of the files.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I will try using git for my Android application development project and any furthur project
+i am gonna do. 
